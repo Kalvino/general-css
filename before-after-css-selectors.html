@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .ma-box::before {
+        background-image: url(https://www.digitalocean.com/_next/static/media/coral-cta-top.89e13f0f.svg);
+        height: 64px;
+        left: -15px;
+        top: -13px;
+        width: 43px;
+      }
+
+      .ma-box::before,
+      .ma-box::after {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        content: "bb";
+        position: absolute;
+        box-sizing: border-box;
+      }
+
+      .ma-box::after {
+        background-image: url(https://www.digitalocean.com/_next/static/media/coral-cta-bottom.b2063e35.svg);
+        bottom: -19px;
+        height: 64px;
+        right: -19px;
+        width: 64px;
+      }
+
+      .ma-box {
+        background-color: rgb(50, 8, 122);
+        border-radius: 24px;
+        color: rgb(227, 232, 244);
+        padding: 24px;
+        position: relative;
+      }
+
+      .wrapper {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="ma-box">
+        <h3>Try DigitalOcean for free</h3>
+        <p>
+          Click below to sign up and get<!-- -->
+          <strong>$100 of credit</strong>
+          <!-- -->to try our products over 60 days!
+        </p>
+        <p>
+          <a class="" href="https://cloud.digitalocean.com/registrations/new"
+            >Sign up</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
